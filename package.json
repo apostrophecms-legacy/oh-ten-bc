@@ -1,0 +1,22 @@
+{
+  "name": "oh-ten-bc",
+  "version": "0.1.0",
+  "description": "Monkeypatch newer versions of node to be bc with node 0.10.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punkave/oh-ten-bc.git"
+  },
+  "keywords": [
+    "0.10"
+  ],
+  "author": "P'unk Avenue LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/punkave/oh-ten-bc/issues"
+  },
+  "homepage": "https://github.com/punkave/oh-ten-bc#readme"
+}
