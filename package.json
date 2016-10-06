@@ -1,6 +1,6 @@
 {
   "name": "oh-ten-bc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Monkeypatch newer versions of node to be bc with node 0.10.x",
   "main": "index.js",
   "scripts": {
