@@ -31,7 +31,7 @@ if (!version.match(/^0\.10/)) {
 
   var superConsoleError = console.error;
   console.error = function(s) {
-    if (s.indexOf("js-bson: Failed to load c++ bson extension, using pure JS version") !== -1) {
+    if (typeof s == "string" && s.indexOf("js-bson: Failed to load c++ bson extension, using pure JS version") !== -1) {
       return;
     }
     return superConsoleError.apply(console, arguments);
