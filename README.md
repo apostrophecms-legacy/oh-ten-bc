@@ -1,3 +1,7 @@
+# ⛔️ **DEPRECATED** — do not use for new projects
+
+See [our current docs](https://docs.apostrophecms.org/)
+
 This module monkeypatches various node APIs of newer versions of node and related packages to be compatible with code written and tested for 0.10.x.
 
 This may not always be possible and this package is far from complete. These solutions are hacks although they have been tested in use.
